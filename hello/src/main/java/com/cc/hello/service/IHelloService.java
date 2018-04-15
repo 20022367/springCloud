@@ -1,5 +1,5 @@
 package com.cc.hello.service;
 
-public interface IhelloService {
+public interface IHelloService {
 	String hello();
 }
