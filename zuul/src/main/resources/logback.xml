@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.padual.com/java/logback.xsd" debug="false"
     scan="true" scanPeriod="30 second">
-    <property name="PROJECT" value="hello" />
+    <property name="PROJECT" value="zuul" />
     <property name="ROOT" value="/usr/local/tomcat/logs/applogs" />
     <property name="FILESIZE" value="50MB" />
     <property name="MAXHISTORY" value="100" />
