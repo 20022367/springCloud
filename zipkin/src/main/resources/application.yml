@@ -2,12 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: hello
-  sleuth:
-    sampler:
-      percentage: 1.0
-  zipkin:
-    base-url: http://172.17.0.6:8080
+    name: zipkin
 eureka:
   instance:
     preferIpAddress: true
