@@ -7,7 +7,7 @@ spring:
     sampler:
       percentage: 1.0
   zipkin:
-    base-url: http://172.17.0.6:8080
+    base-url: http://172.17.0.6:9441
 eureka:
   instance:
     preferIpAddress: true
